@@ -15,7 +15,7 @@ padding-top: 60px;
 @import 'bootstrap-responsive';
 
 .navbar-inner {
-	@include box-shadow(non !important);
+	@include box-shadow(none !important);
 	border: 0;
 }
 
