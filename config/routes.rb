@@ -5,6 +5,7 @@ Omrails::Application.routes.draw do
   devise_for :users
 
   get 'about' => 'pages#about'
+  get 'home' => 'pins#index'
 
   root :to => 'pages#home'
 
