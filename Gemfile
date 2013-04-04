@@ -5,7 +5,10 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
-gem 'aws-sdk'
+
+
+gem "acts_as_list"
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -16,6 +19,8 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  #gem "mysql2"
+
 end
 
 # Gems used only for assets and not required
