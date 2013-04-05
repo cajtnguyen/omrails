@@ -5,9 +5,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
-
-
-gem "acts_as_list"
+gem 'aws-sdk'
+gem 'faker', '1.1.2'
 
 
 # Bundle edge Rails instead:
@@ -20,7 +19,6 @@ end
 group :development, :test do
   gem 'sqlite3'
   #gem "mysql2"
-
 end
 
 # Gems used only for assets and not required
