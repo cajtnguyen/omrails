@@ -1,5 +1,5 @@
 Omrails::Application.routes.draw do
-  get "user/show"
+  get "users/show"
 
   resources :pins
 
